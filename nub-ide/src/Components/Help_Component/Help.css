@@ -1,0 +1,74 @@
+@import url("../../Themes/theme_styles.css");
+
+.help-container.visible {
+    display: block;
+}
+
+.help-container.hidden {
+    display: none;
+}
+
+.help-container {
+    position: fixed;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 25px);
+    background-color: var(--main-color);
+    z-index: 1000;
+    overflow: auto;
+    color: var(--text-color);
+}
+
+.help-container h1 {
+    font-size: 2rem;
+}
+
+.help-close-button {
+    text-align: end;
+    padding: 2.5%;
+}
+
+.help-close-button button {
+    cursor: pointer;
+    font-size: large;
+    color: var(--text-color);
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.help-content-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin-bottom: 24px;
+}
+
+.help-content {
+    text-align: start;
+}
+
+.language-dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилізація select */
+select {
+    background-color: var(--second-color);
+}
+
+.select-stylized {
+    width: 30%;
+    height: 50%;
+    border-radius: 0rem;
+    background-color: var(--second-color);
+    border: none;
+}
+
+.select-stylized option {
+    background-color: var(--second-color);
+}

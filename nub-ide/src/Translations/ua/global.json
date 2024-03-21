@@ -1,0 +1,37 @@
+{
+  "header": {
+    "file": "Файл",
+    "new": "Новий",
+    "open": "Відкрити",
+    "save": "Зберегти",
+    "save_as": "Зберегти як",
+    "edit": "Редагування",
+    "selectAll": "Виділити все",
+    "undo": "Скасувати дію",
+    "repo": "Повернути дію",
+    "copy": "Копіювати",
+    "cut": "Вирізати",
+    "paste": "Вставити",
+    "terminal": "Термінал",
+    "help": "Допомога",
+    "exit": "Вихід"
+  },
+  "help": {
+    "select_language": "Обрати мову"
+  },
+  "startScreen": {
+    "welcome": "Вітаю, вас друзі",
+    "new": "Новий файл",
+    "open": "Відкрити файл"
+  },
+  "terminal": {
+    "error": "Не відома команда",
+    "language": "<strong>Використання команди:</strong> мова <Обрана мова>\n<strong>Варіанти мов:</strong> українська, english",
+    "themes": "<strong>Використання команди:</strong> тема <Обрана тема>\n<strong>Варіанти тем:</strong> azure-sky, based, dracula, lemon-sorbet, monokai, niklang, one-dark-pro, pink-rabbit, solarized-dark, solarized-light, standard-dark, standard-light, tomorrow, udav, vanilla-cream",
+    "help": ""
+  },
+  "dialogue": {
+    "exit_save": "Чи бажаєте ви зберегти зміни файлу перед виходом?",
+    "change_file_save": "Чи бажаєте ви зберегти зміни файлу до того, як зміните його?"
+  }
+}

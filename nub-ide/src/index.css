@@ -1,0 +1,34 @@
+@import url("./Themes/theme_styles.css");
+
+@font-face {
+  font-family: 'Fixel';
+  src: url('../public/fonts/Fixel/FixelText-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CascadiaCode';
+  src: url('../public/fonts/CascadiaCode/CascadiaCode.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--main-color);
+  font-family: 'Fixel', sans-serif;
+}
+
+* {
+  font-family: 'Fixel', sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  font-size: 14px;
+  font-family: 'CascadiaCode', monospace;
+  font-variant-ligatures: contextual;
+}

@@ -1,0 +1,10 @@
+:root {
+    --main-color: #282c34;
+    --second-color: #383e4a;
+    --accent-color: #434c5e;
+    --text-color: #abb2bf;
+    --keyword-color: #c678dd;
+    --operator-color: #56b6c2;
+    --bracket-color: #98c379;
+    --comment-color: #5c6370;
+}

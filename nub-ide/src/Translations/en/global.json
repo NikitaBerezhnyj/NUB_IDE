@@ -1,0 +1,34 @@
+{
+  "header": {
+    "file": "File",
+    "new": "New",
+    "open": "Open",
+    "save": "Save",
+    "save_as": "Save as",
+    "edit": "Edit",
+    "selectAll": "Select All",
+    "undo": "Undo",
+    "repo": "Repo",
+    "copy": "Copy",
+    "cut": "Cut",
+    "paste": "Paste",
+    "terminal": "Terminal",
+    "help": "Help",
+    "exit": "Exit"
+  },
+  "help": {
+    "select_language": "Select language"
+  },
+  "startScreen": {
+    "welcome": "Welcome, friend",
+    "new": "New file",
+    "open": "Open file"
+  },
+  "terminal": {
+    "error": "Unknown command"
+  },
+  "dialogue": {
+    "exit_save": "Do you want to save the file changes before exiting?",
+    "change_file_save": "Do you want to save the changes to the file before you change it to another one?"
+  }
+}

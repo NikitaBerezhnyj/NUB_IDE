@@ -1,0 +1,68 @@
+@import url("../../Themes/theme_styles.css");
+
+.code-editor-container {
+    text-align: start;
+    margin-top: 25px;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+}
+
+.code-lines {
+    min-height: 95vh;
+    padding: 0.5% 0.5% 0% 0.5%;
+    border-right: 1px solid var(--accent-color);
+    font-size: medium;
+    line-height: 24px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.code-lines div {
+    margin-right: 6px;
+}
+
+.code-editor {
+    padding-top: 0.5%;
+    padding-left: 0.25%;
+    width: 100%;
+    min-height: 95vh;
+    height: auto;
+    border: none;
+    user-select: none;
+    font-size: medium;
+    line-height: 24px;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: pre;
+    resize: none;
+    margin-bottom: 0;
+}
+
+.code-editor:focus {
+    outline: 0;
+}
+
+.code-editor-background-img {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: auto;
+    opacity: 0.3;
+}
+
+.keywords {
+    color: var(--keyword-color);
+}
+
+.operators {
+    color: var(--operator-color);
+}
+
+.brackets {
+    color: var(--bracket-color);
+}
