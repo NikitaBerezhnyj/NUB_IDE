@@ -47,7 +47,7 @@ NUB IDE repository has [Ukrainian :ukraine:](#мова-програмуванн�
 
 ---
 
-## Code editor NUB IDE :ukraine:
+## Code editor NUB IDE :uk:
 
 <p align='center'>
   <img src='./nub-ide/public/logo512.png' alt='NUD IDE icon' style="width:50%">
